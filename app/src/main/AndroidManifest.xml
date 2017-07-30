@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sakshi.shree">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.SEND_EMAIL" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/header"
+        android:label="पिच्छि"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="पिच्छि"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".UddeshyaActivity"
+            android:label="हमारा उद्देश्य"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".JankariActivity"
+            android:label="साधु की जानकारी "
+            android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".SadasyataActivity"
+            android:label="सदस्यता अभियान "
+            android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".SahyogActivity"
+            android:label="सहयोग राशि"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PhotoActivity"
+            android:label="Photo Gallery"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".VideoActivity"
+            android:label="Video Gallery"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ShareActivity"
+            android:label="Share Us"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SamparkActivity"
+            android:label="Contact Us"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Samachar"
+            android:parentActivityName=".MainActivity"
+            android:label="समाचार"
+
+            />
+        <activity android:name=".Details"
+            android:parentActivityName=".PhotoActivity">
+
+        </activity>
+    </application>
+
+</manifest>

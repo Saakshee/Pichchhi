@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/imagebg"
+    android:id="@+id/mantra_frag"
+    android:layout_height="match_parent"
+    tools:context="com.example.sakshi.shree.MantraFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="नवकार मंत्र"
+
+        android:textSize="40dp"
+        android:layout_gravity="center"/>
+
+    <ToggleButton
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="Play"
+        android:textOff="Pause"
+        android:layout_gravity="center"
+        />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"/>
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6d696"
+    android:padding="10sp"
+    android:orientation="vertical"
+    tools:context="com.example.sakshi.shree.PhotoActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="0sp">
+
+            <LinearLayout
+                android:id="@+id/ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+            <Button
+                android:onClick="onSadhuClick"
+                android:id="@+id/bsadhu"
+                android:layout_width="100dp"
+                android:layout_margin="3dp"
+                android:layout_height="wrap_content"
+                android:text="संत फोटो "
+
+                />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <Button
+                android:onClick="onShashtraClick"
+                android:id="@+id/bshastra"
+                android:layout_width="100dp"
+                android:layout_margin="3dp"
+                android:layout_height="wrap_content"
+                android:text="शास्त्र फोटो "
+                android:layout_toRightOf="@+id/bsadhu"
+               />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <Button
+                android:onClick="onTeerthClick"
+                android:layout_width="100dp"
+                android:layout_margin="3dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/teerth"
+                android:text="तीर्थ फोटो"
+                android:layout_toRightOf="@+id/bshastra"
+                />
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+            <ImageView
+                android:layout_below="@+id/ll"
+                android:id="@+id/banner_image"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/banner_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="#4000"
+                android:maxLines="2"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:horizontalSpacing="10sp"
+        android:numColumns="2"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10sp" />
+
+</LinearLayout>
+

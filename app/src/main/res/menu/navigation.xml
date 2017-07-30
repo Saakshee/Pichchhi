@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/call"
+        android:icon="@drawable/abc"
+        android:title="Call Now" />
+
+    <item
+        android:id="@+id/sms"
+        android:icon="@drawable/pqr"
+        android:title="Send SMS" />
+
+    <item
+        android:id="@+id/email"
+        android:icon="@drawable/email"
+        android:title="Send Email" />
+    <item
+        android:id="@+id/bhajan"
+        android:icon="@drawable/py"
+        android:title="जैन भजन" />
+    <item
+        android:id="@+id/mantra"
+        android:icon="@drawable/unnamed"
+        android:title="नवकार मंत्र"/>
+
+</menu>

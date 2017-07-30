@@ -1,0 +1,258 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frag_container"
+    android:background="@drawable/imagebg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    android:padding="16dp"
+    >
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/lord" />
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="Jaini Dance"
+            android:gravity="center"
+            android:textColor="#333"
+            />
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+        <ToggleButton
+            android:id="@+id/p1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="Play"
+            android:textOff="Pause"
+            />
+
+    </LinearLayout>
+<Space
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"/>
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/lord" />
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="Mere Guru"
+            android:gravity="center"
+            android:textColor="#333"
+            />
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+        <ToggleButton
+            android:id="@+id/p3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="Play"
+            android:textOff="Pause"
+            />
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/lord" />
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="Janm Bhumi"
+            android:gravity="center"
+            android:textColor="#333"
+            />
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+        <ToggleButton
+            android:id="@+id/p5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="Play"
+            android:textOff="Pause"
+            />
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/lord" />
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="Teertheshwar"
+            android:gravity="center"
+            android:textColor="#333"
+            />
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+        <ToggleButton
+            android:id="@+id/p7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="Play"
+            android:textOff="Pause"
+            />
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/lord" />
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="Tum hi ho"
+            android:gravity="center"
+            android:textColor="#333"
+            />
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+        <ToggleButton
+            android:id="@+id/p11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="Play"
+            android:textOff="Pause"
+            />
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/lord" />
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="Mere sar pe sada"
+            android:gravity="center"
+            android:textColor="#333"
+            />
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+        <ToggleButton
+            android:id="@+id/p13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="Play"
+            android:textOff="Pause"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
+

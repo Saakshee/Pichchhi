@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_uddeshya"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.sakshi.shree.UddeshyaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" हमारा उद्देश्य"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#333333"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="णमो सिद्धाणं,"
+            android:textSize="20dp"
+            android:textColor="#333333"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="एक संकल्प..."
+            android:textSize="20dp"
+            android:textColor="#333333"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="‘णमो लोए सव्व साहूणं’ परिवार"
+            android:textSize="20dp"
+            android:textColor="#333333"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/Uddeshya"
+            android:textSize="20dp"
+            android:textColor="#333333"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" 1 - वर्तमान के सभी साधुओं के विहार, वर्षायोग, शीतयोग, ग्रीष्मयोग की जानकारी एक ही स्थान पर उपलब्ध करवाने का संकल्प।"
+            android:textSize="20dp"
+            android:textColor="#333333"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" 2 -सभी साधुओं को शास्त्र, पिच्छी-कमण्डल उपलब्ध करवाने का संकल्प।"
+            android:textSize="20dp"
+            android:textColor="#333333"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" 3 -विहार में उनकी सुरक्षा, आहार और विश्राम की व्यवस्था का संकल्प।"
+            android:textSize="20dp"
+            android:textColor="#333333"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" 4 -साधुओं की वैय्यावृत्ति का संकल्प।"
+            android:textSize="20dp"
+            android:textColor="#333333"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" 5 -साधुओं के प्रवचन, विचार और उनके चिंतन को सोषल मीडिया पर निष्पक्षता के साथ लाने का संकल्प।"
+            android:textSize="20dp"
+            android:textColor="#333333"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <TextView
+            android:id="@+id/text11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" 6 - साधुओं द्वारा रचित ग्रंथ, शास्त्र व साहित्य के प्रकाशन का संकल्प।"
+            android:textSize="20dp"
+            android:textColor="#333333"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <TextView
+            android:id="@+id/text12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="7 -त्यागीवृत्तियों की सेवा का संकल्प।"
+            android:textSize="20dp"
+            android:textColor="#333333"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <TextView
+            android:id="@+id/text13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" 8 -प्राचीनता और मूल स्वरूप को सुरक्षित रखते हुए तीर्थों का सौन्दर्यन करने का संकल्प।"
+            android:textSize="20dp"
+            android:textColor="#333333"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <TextView
+            android:id="@+id/text14"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" 9 -तीर्थों पर ऑनलाइन आवास और भोजन की व्यवस्था प्रारम्भ करने का संकल्प।"
+            android:textSize="20dp"
+            android:textColor="#333333"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <TextView
+            android:id="@+id/text15"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" 10 -सोशल मीडिया पर तीर्थों की जानकारी एक ही जगह उपलब्ध कराने का संकल्प।"
+            android:textSize="20dp"
+            android:textColor="#333333"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <TextView
+            android:id="@+id/text16"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" 11 -पंथवाद और संतवाद से हटकर कार्य करने का संकल्प।"
+            android:textSize="20dp"
+            android:textColor="#333333"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <TextView
+            android:id="@+id/text17"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="  12 -साधु सेवा और तीर्थ सेवा के समर्पित व्यक्तियों के लिए उपकार की भावना जाग्रत करने का संकल्प।"
+            android:textSize="20dp"
+            android:textColor="#333333"/>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
